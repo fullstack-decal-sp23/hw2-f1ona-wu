@@ -32,6 +32,8 @@ h2 {
 }
 
 .threevert {
+  /* added this */
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -75,7 +77,8 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
+  /* added - */
   background-color: lightblue;
 }
 
@@ -91,18 +94,29 @@ h2 {
   background-color: #000;
 }
 
+.red {
+  /* added this */
+  background-color: red;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
   /* TODO */
+  background-color: #B5002D;
+  height: 16.65%;
 }
 
 .thailand-white {
   /* TODO */
+  background-color: white;
+  height: 16.65%;
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2E2A4C;
+  height: 33.3%;
 }
 
 /* END QUESTION 2 */
@@ -111,14 +125,17 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  height: 100%;
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+  height: 100%;
 }
 
 .romania-red {
   background-color: #e10017;
+  height: 100%;
 }
 
 /* END QUESTION 3 */
@@ -130,6 +147,11 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mexico-red {
@@ -162,4 +184,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 60px;
 }

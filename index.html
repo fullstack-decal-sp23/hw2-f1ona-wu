@@ -14,20 +14,20 @@
   -->
   
   <div class="flags">
-    <h2 class="label">Poland</h2>
+    <h2 class="label" style="color: red;">Poland</h2>
     <div class="flag">
       <div class="white twovert"></div>
       <div class="red twovert"></div>
     </div>
   
-    <h2 class="label">Luxembourg</h2>
+    <h2 class="label" style="color: lightblue">Luxembourg</h2>
     <div class="flag">
       <div class="red threevert"></div>
-      <div class="red threevert" id="white"></div>
+      <div class="white threevert"></div> <!-- changed class from "red threevert" to white threevert and deleted id = "white"-->
       <div class="light-blue threevert"></div>
     </div>
 
-    <h2 class="label">Thailand</h2>
+    <h2 class="label" style="color: darkred">Thailand</h2>
     <div class="flag">
       <div class="thailand-red"></div>
       <div class="thailand-white"></div>
@@ -36,20 +36,28 @@
       <div class="thailand-red"></div>
     </div>
   
-    <h2 class="label">Romania</h2>
-    <div class="flag" style="">
+    <h2 class="label" style="color: goldenrod">Romania</h2>
+    <div class="flag" style = "display: flex; flex-direction: row; align-items: center"> <!-- added style -->
       <!-- insert flag here -->
+      <div class="romania-blue threehoriz"></div>
+      <div class="romania-yellow threehoriz"></div>
+      <div class="romania-red threehoriz"></div>
     </div>
   
-    <h2 class="label">Mexico</h2>
-    <div class="flag">
+    <h2 class="label" style="color: darkgreen">Mexico</h2>
+    <div class="flag" style = "display: flex; flex-direction: row;">
       <!-- insert flag here -->
+      <div class="mexico-green threehoriz"></div>
+      <div class="mexico-img threehoriz">
+        <img src="eagle.png", style="max-height: 100px; max-width: 100px">
+      </div>
+      <div class="mexico-red threehoriz"></div>
     </div>
 
     <h2>Margin</h2>
     <div class="margin-container">
-      <div class="flag"></div>
-      <div class="flag"></div>
+      <div class="flag" style="margin-right: 5px"></div>
+      <div class="flag" style="margin-left: 5px"></div>
     </div>
 
     <h2>Padding</h2>
